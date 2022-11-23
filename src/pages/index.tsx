@@ -21,9 +21,9 @@ const Home: FC = () => {
           <title>Seaport | The ultimate NFT liquidity marketplace</title>
           <meta
             name="description"
-            content="Reservoir is a blockchain protocol and framework making it easier to build NFT marketplaces and tools, sharing a global pool of NFT liquidity."
+            content="Seaport is a blockchain protocol and framework NFT marketplace with a global pool of NFT liquidity."
           />
-          <meta name="keywords" content="NFT, API, Protocol" />
+          <meta name="keywords" content="NFT, API, Market" />
           {/* Twitter */}
           {/* The optimal size is 1200 x 630 (1.91:1 ratio). */}
           <meta
@@ -98,7 +98,7 @@ const Home: FC = () => {
                 transition={{ duration: 2 }}
                 viewport={{ once: true }}
               >
-                Build NFT apps
+                NFT apps
                 <br />
                 powered by liquidity
               </motion.div>
