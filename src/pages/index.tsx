@@ -18,7 +18,7 @@ const Home: FC = () => {
       <Navbar />
       <Layout noFooter={true}>
         <Head>
-          <title>Reservoir | Build NFT apps powered by liquidity</title>
+          <title>Seaport | The ultimate NFT liquidity marketplace</title>
           <meta
             name="description"
             content="Reservoir is a blockchain protocol and framework making it easier to build NFT marketplaces and tools, sharing a global pool of NFT liquidity."
@@ -28,35 +28,35 @@ const Home: FC = () => {
           {/* The optimal size is 1200 x 630 (1.91:1 ratio). */}
           <meta
             name="twitter:image"
-            content="https://reservoirprotocol.github.io/og.png"
+            content="https://www.seaport.market/og.png"
           />
           <meta name="twitter:card" content="summary_large_image" />
           <meta
             name="twitter:site:domain"
-            content="https://reservoirprotocol.github.io/"
+            content="https://www.seaport.market/"
           />
           <meta
             name="twitter:url"
-            content="https://reservoirprotocol.github.io/"
+            content="https://www.seaport.market/"
           />
           {/* should be between 30-60 characters, with a maximum of 70 */}
           <meta
             name="twitter:title"
-            content="Reservoir Protocol: A global pool of NFT liquidity."
+            content="Seaport Market: A global pool of NFT liquidity."
           />
           {/* should be between 55 and 200 characters long */}
           <meta
             name="twitter:description"
-            content="Reservoir is a blockchain protocol and framework making it easier to build NFT marketplaces and tools, sharing a global pool of NFT liquidity."
+            content="Seaport is a blockchain protocol and framework NFT marketplace with a global pool of NFT liquidity."
           />
-          <meta name="twitter:site" content="@reservoir0x" />
+          <meta name="twitter:site" content="@Seaport_market" />
 
           {/* OG - https://ogp.me/ */}
           {/* https://www.opengraph.xyz/ */}
           {/* should be between 30-60 characters, with a maximum of 90 */}
           <meta
             name="og:title"
-            content="Reservoir Protocol: A global pool of NFT liquidity."
+            content="Seaport Market: A global pool of NFT liquidity."
           />
           <meta property="og:type" content="website" />
           <meta property="og:determiner" content="the" />
@@ -64,22 +64,22 @@ const Home: FC = () => {
           {/* Make sure the important part of your description is within the first 110 characters, so it doesn't get cut off on mobile. */}
           <meta
             property="og:description"
-            content="Reservoir is a blockchain protocol and framework making it easier to build NFT marketplaces and tools, sharing a global pool of NFT liquidity."
+            content="Seaport is a blockchain protocol and framework NFT marketplace with a global pool of NFT liquidity."
           />
           <meta property="og:site_name" content="Reservoir Protocol" />
           <meta
             property="og:url"
-            content="https://reservoirprotocol.github.io/"
+            content="https://www.seaport.market/"
           />
           {/* The optimal size is 1200 x 630 (1.91:1 ratio). */}
           <meta
             property="og:image"
-            content="https://reservoirprotocol.github.io/og.png"
+            content="https://www.seaport.market/og.png"
           />
           <meta property="og:image:type" content="image/png" />
           <meta property="og:image:width" content="1280" />
           <meta property="og:image:height" content="640" />
-          <meta property="og:image:alt" content="Reservoir Protocol banner" />
+          <meta property="og:image:alt" content="Seaport Market banner" />
         </Head>
         <div
           className="mx-auto bg-black"
@@ -109,7 +109,7 @@ const Home: FC = () => {
                 transition={{ duration: 3 }}
                 viewport={{ once: true }}
               >
-                Reservoir gives open and permissionless access to aggregated NFT
+                Seaport gives open and permissionless access to aggregated NFT
                 liquidity, unlocking powerful new use cases
               </motion.div>
               <motion.div
@@ -140,7 +140,7 @@ const Home: FC = () => {
                 viewport={{ once: true }}
               >
                 {[
-                  'Open Source Marketplace',
+                  'Seaport Marketplace',
                   'Drop-in Buy & Sell',
                   'Portfolio Tracker',
                   'Trait Explorer',
