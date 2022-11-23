@@ -6,15 +6,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Reservoir',
+  title: 'Seaport',
   tagline: 'NFT aggregator',
-  url: 'https://reservoirprotocol.github.io/',
+  url: 'https://about.seaport.market/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/reservoir.png',
-  organizationName: 'UnevenLabs', // Usually your GitHub org/user name.
-  projectName: 'reservoir-docs', // Usually your repo name.
+  favicon: 'img/seaport.png',
+  organizationName: 'SeaportMarket', // Usually your GitHub org/user name.
+  projectName: 'seaport-docs', // Usually your repo name.
 
   plugins: [
     // @ts-ignore
@@ -72,10 +72,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'reservoir',
+        title: 'seaport',
         logo: {
-          alt: 'Reservoir Logo',
-          src: 'img/reservoir.svg',
+          alt: 'Seaport Logo',
+          src: 'img/seaport.svg',
         },
         items: [
           {
@@ -91,19 +91,19 @@ const config = {
             className: 'persistent',
           },
           {
-            href: 'https://github.com/reservoirprotocol',
+            href: 'https://github.com/seaport-market',
             label: 'GitHub',
             position: 'left',
             className: 'persistent',
           },
           {
-            to: 'https://reservoir.mirror.xyz/',
+            to: 'https://seaport.mirror.xyz/',
             label: 'Blog',
             position: 'left',
             className: 'persistent',
           },
           {
-            to: 'https://discord.gg/j5K9fESNwh',
+            to: 'https://discord.gg/mXaqx6SnjP',
             label: 'Discord',
             position: 'left',
             className: 'persistent',
@@ -133,7 +133,7 @@ const config = {
             ],
           },
           {
-            title: 'Built on Reservoir',
+            title: 'Built on Seaport',
             items: [
               {
                 label: 'Levee',
