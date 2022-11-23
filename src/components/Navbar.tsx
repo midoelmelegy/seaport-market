@@ -10,20 +10,16 @@ const links = [
     label: 'API',
   },
   {
-    href: 'https://github.com/reservoirprotocol',
+    href: 'https://github.com/seaport-market',
     label: 'GitHub',
   },
   {
-    href: 'https://reservoir.mirror.xyz/',
+    href: 'https://seaport.mirror.xyz/',
     label: 'Blog',
   },
   {
-    href: 'https://discord.gg/j5K9fESNwh',
+    href: 'https://discord.gg/mXaqx6SnjP',
     label: 'Discord',
-  },
-  {
-    href: 'https://docs.google.com/forms/d/e/1FAIpQLSdetWgU3dK_NWfIVvN0UpZjj85ifjQVUkRGOcssHwPAgzSzkw/viewform?usp=sf_link',
-    label: 'Jobs',
   },
 ]
 
@@ -33,11 +29,11 @@ const Navbar = () => {
       <nav className="relative mx-auto flex h-[70px] max-w-screen-xl items-center justify-center px-6 ">
         <div className="absolute left-5 inline-flex items-center gap-2">
           <img
-            src="img/reservoir.svg"
+            src="img/seaport.svg"
             alt="Reservoir Logo"
             className="h-6 w-6"
           />
-          <div className="font-[Obvia] text-2xl font-bold">reservoir</div>
+          <div className="font-[Obvia] text-2xl font-bold">SeaPort</div>
         </div>
         <div>
           {links.map(({ href, label }) => (
