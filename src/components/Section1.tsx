@@ -12,18 +12,18 @@ const Section1 = () => {
     >
       <div>
         <div className="mb-6 text-4xl font-bold">
-          Easiest way to build community marketplaces
+          Tranding verified community collections
         </div>
         <div className="mb-12 text-lg text-[#EDEDED]">
-          Reservoir&apos;s API and public repositories enable communities to
-          easily build their own marketplaces with access to a shared pool of
+          Seaport&apos;s API and global pool of NFT liquidity enable communities to
+          easily buy, and sell on more than one marketplace with deep orderbook of
           liquidity.
         </div>
         <a
           className="inline-flex items-center gap-2 rounded-lg bg-[#060606] px-8 py-4 font-bold hover:text-white hover:no-underline "
-          href="https://github.com/reservoirprotocol/marketplace"
+          href="https://www.seaport.market"
         >
-          Visit GitHub
+          Visit Market
           <HiArrowRight className="flex-none" />
         </a>
       </div>
@@ -38,9 +38,9 @@ const Section1 = () => {
         <a
           target="_blank"
           className="flex justify-end text-sm opacity-70"
-          href="https://www.gmoney.market"
+          href="https://www.seaport.market/explore"
         >
-          @gmoney market
+          @explore market
         </a>
       </div>
     </motion.div>
